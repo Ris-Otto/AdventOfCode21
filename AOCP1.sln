@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOCP1", "AOCP1\AOCP1.csproj", "{D642CCEA-6AA0-44DB-8123-DF0BBDDCAEEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D642CCEA-6AA0-44DB-8123-DF0BBDDCAEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D642CCEA-6AA0-44DB-8123-DF0BBDDCAEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D642CCEA-6AA0-44DB-8123-DF0BBDDCAEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D642CCEA-6AA0-44DB-8123-DF0BBDDCAEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D642CCEA-6AA0-44DB-8123-DF0BBDDCAEEE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

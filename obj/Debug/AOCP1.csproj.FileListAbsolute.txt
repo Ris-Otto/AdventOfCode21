@@ -1,5 +1,0 @@
-C:\Users\Ris-Otto\RiderProjects\AOCP1\AOCP1\bin\Debug\AOCP1.dll
-C:\Users\Ris-Otto\RiderProjects\AOCP1\AOCP1\bin\Debug\AOCP1.pdb
-C:\Users\Ris-Otto\RiderProjects\AOCP1\AOCP1\obj\Debug\AOCP1.csprojAssemblyReference.cache
-C:\Users\Ris-Otto\RiderProjects\AOCP1\AOCP1\obj\Debug\AOCP1.dll
-C:\Users\Ris-Otto\RiderProjects\AOCP1\AOCP1\obj\Debug\AOCP1.pdb
