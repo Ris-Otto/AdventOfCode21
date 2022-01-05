@@ -24,10 +24,7 @@ namespace AOCP1
             
             Console.WriteLine("\nPuzzle Seven! ---------------------->");
             Console.WriteLine(OptimalValue(subs, true));
-            sw.Start();
             Console.WriteLine(OptimalValue(subs, false));
-            sw.Stop();
-            Console.WriteLine(sw.ElapsedMilliseconds);
         }
 
         
@@ -44,13 +41,13 @@ namespace AOCP1
                         : subs.Sum(x => CalculateIndividualFuelCost(Math.Abs(x - j))));
             
             
-            int coc = optimal.Values.Min();
+            int optimalValue = optimal.Values.Min();
             for (int i = 0; i < range; i++) {
-                if (optimal[i] != coc) continue;
-                coc = i;
+                if (optimal[i] != optimalValue) continue;
+                optimalValue = i;
                 break;
             }
-            return (coc , optimal[coc]);
+            return (optimalValue , optimal[optimalValue]);
         }
 
         private static int CalculateIndividualFuelCost(int distance) {

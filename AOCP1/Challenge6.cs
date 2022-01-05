@@ -19,7 +19,7 @@ namespace AOCP1
             StreamReader sr = new StreamReader(fs);
             List<int> lifeSpans = sr.ReadLine()
                 ?.
-                Split(char.Parse(",")).
+                Split(',').
                 Select(s => (int.Parse(s))).ToList();
             Dictionary<int, long> spawnedDict = new Dictionary<int, long>();
             if (lifeSpans != null)

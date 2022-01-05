@@ -107,16 +107,11 @@ namespace AOCP1
                     greater = line.ReturnGreater(startY, endY, out int lesserY);
                     lesser = lesserY;
                     otherIdx = lesserX;
-                    while (greater >= lesser) {
+                    while (greater >= lesser) 
                         grid[otherIdx, greater--]++;
-                        
-                    }
                 }
-
-                while (greater >= lesser) {
+                while (greater >= lesser) 
                     grid[greater--, otherIdx]++;
-                }
-
             }
             return grid;
         }
